@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Footer() {
   return (
-    <div className="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style={{marginTop: 90 + 'px'}}>
+    <div className="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style={{marginTop: 90 + 'px', textAlign: 'left'}}>
         <div className="row mt-5">
             
             <div className="col-lg-4">
