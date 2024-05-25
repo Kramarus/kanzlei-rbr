@@ -48,7 +48,7 @@ export default function Header() {
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="#" class="nav-item nav-link active">Hauptseite</a>
-                            <a href="index.html#about" class="nav-item nav-link">Über uns</a>
+                            <a href="#about" class="nav-item nav-link">Über uns</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Zivilrecht</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -86,7 +86,7 @@ export default function Header() {
                                 </div>
                             </div>
                             <a href="#" class="nav-item nav-link">Strafrecht</a>
-                            <a href="index.html#contact" class="nav-item nav-link">Kontakt</a>
+                            <a href="#contact" class="nav-item nav-link">Kontakt</a>
                         </div>
                         <a href="https://wa.me/4915203373871" class="btn btn-primary mr-3 d-none d-lg-block">WhatsApp</a>
                     </div>
