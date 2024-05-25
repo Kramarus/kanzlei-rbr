@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function Footer() {
   return (
@@ -58,8 +59,8 @@ export default function Footer() {
                 <h4 className="font-weight-semi-bold text-primary mb-4">Gesetzliches</h4>
                 <div className="d-flex flex-column justify-content-start">
                     <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>AGB</a>
-                    <a className="text-white mb-2" href="./datenschutz.html"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
-                    <a className="text-white mb-2" href="./impressum.html"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
+                    <a className="text-white mb-2" href="/datenschutz"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
+                    <a className="text-white mb-2" href="/impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
                 </div>
             </div>
         </div>

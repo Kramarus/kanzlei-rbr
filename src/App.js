@@ -1,21 +1,23 @@
 import './App.css';
 import Header from './components/Header';
 import Footer from './components/Footer';
-import Hero from './components/Hero';
-import Services from './components/Services';
-import Features from './components/Features';
-import About from './components/About';
-import CallToAction from './components/CallToAction';
+import MainPage from './components/MainPage';
+import Datenschutz from './components/Datenschutz';
+import Impressum from './components/Impressum';
+import { BrowserRouter as Router, Routes, Route, useNavigate, Navigate } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Hero />
-      <Services />
-      <Features />
-      <About />
-      <CallToAction />
+      <Router>
+        <Routes>
+          <Route path="/" element={<MainPage />} />
+          <Route path="/datenschutz" element={<Datenschutz />} />
+          <Route path="/impressum" element={<Impressum/>} />
+          <Route path="*" element={<Navigate to="/" />} />
+        </Routes>
+      </Router>
       <Footer />
     </div>
   );
