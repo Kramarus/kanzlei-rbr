@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function Header() {
+export default function Header({setPage}) {
   return (
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 bg-secondary d-none d-lg-block">
                 <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
+                    <h1 onClick={() => setPage('main')} class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
                 </a>
             </div>
             <div class="col-lg-9">
@@ -40,7 +40,7 @@ export default function Header() {
                 </div>
                 <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
                     <a href="index.html" class="navbar-brand d-block d-lg-none">
-                        <h1 class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
+                        <h1 onClick={() => setPage('main')} class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
                     </a>
                     <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                         <span class="navbar-toggler-icon"></span>
@@ -48,7 +48,6 @@ export default function Header() {
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
                         <div class="navbar-nav mr-auto py-0">
                             <a href="#" class="nav-item nav-link active">Hauptseite</a>
-                            <a href="#about" class="nav-item nav-link">Über uns</a>
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Zivilrecht</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -64,8 +63,6 @@ export default function Header() {
                                     <a href="#" class="dropdown-item">Mahnverfahren</a>
                                     <a href="#" class="dropdown-item">Schutz vor unbegründeten finanziellen Forderungen</a>
                                     <a href="#" class="dropdown-item">Schutz der Verbraucherrechte</a>
-
-
                                 </div>
                             </div>
                             <div class="nav-item dropdown">

@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 
-export default function Footer() {
+export default function Footer({setPage}) {
   return (
     <div className="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style={{marginTop: 90 + 'px', textAlign: 'left'}}>
         <div className="row mt-5">
@@ -59,8 +59,8 @@ export default function Footer() {
                 <h4 className="font-weight-semi-bold text-primary mb-4">Gesetzliches</h4>
                 <div className="d-flex flex-column justify-content-start">
                     <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>AGB</a>
-                    <a className="text-white mb-2" href="/datenschutz"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
-                    <a className="text-white mb-2" href="/impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
+                    <a className="text-white mb-2" href="#" onClick={(e) => { e.preventDefault(); setPage('datenschutz'); }}><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
+                    <a className="text-white mb-2" href="#" onClick={(e) => { e.preventDefault(); setPage('impressum'); }}><i className="fa fa-angle-right mr-2"></i>Impressum</a>
                 </div>
             </div>
         </div>
@@ -72,6 +72,7 @@ export default function Footer() {
                 <p className="m-0 text-white">Erstellt von <a className="font-weight-bold" href="https://webbylon.com">Webbylon</a></p>
             </div>
         </div>
+        <a href="#" className="btn btn-primary px-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
     </div>
   )
 }
