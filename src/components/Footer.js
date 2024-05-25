@@ -49,9 +49,9 @@ export default function Footer() {
                 <h4 className="font-weight-semi-bold text-primary mb-4">Links</h4>
                 <div className="d-flex flex-column justify-content-start">
                     <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Hauptseite</a>
-                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Unsere Gebiete</a>
-                    <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Über uns</a>
-                    <a className="text-white" href="#"><i className="fa fa-angle-right mr-2"></i>Kontakt</a>
+                    <a className="text-white mb-2" href="#services"><i className="fa fa-angle-right mr-2"></i>Unsere Gebiete</a>
+                    <a className="text-white mb-2" href="#about"><i className="fa fa-angle-right mr-2"></i>Über uns</a>
+                    <a className="text-white" href="#contact"><i className="fa fa-angle-right mr-2"></i>Kontakt</a>
                 </div>
             </div>
             <div className="col-lg-4 col-md-4 mb-5">

@@ -3,7 +3,7 @@ import feature from '../img/feature.jpg';
 
 export default function Features() {
   return (
-    <div class="container-fluid py-5">
+    <div class="container-fluid py-5" id="features">
         <div class="container py-5">
             <div class="row">
                 <div class="col-lg-6" style={{minHeight: '500px'}}>

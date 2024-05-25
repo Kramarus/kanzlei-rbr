@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Services() {
     return (
-        <div className="container-fluid py-5" style={{ boxSizing: 'border-box' }}>
+        <div className="container-fluid py-5" id="services" style={{ boxSizing: 'border-box' }}>
             <div className="container py-5">
                 <div className="row mb-3">
                     <div className="col-12" style={{ textAlign: 'left' }}>
