@@ -2,15 +2,14 @@ import React from 'react';
 
 export default function Datenschutz() {
   return (
-    <div className="container mt-5 mb-5" style={{textAlign: 'left'}}>
-        <h1>Datenschutzerklärung</h1>
+    <div className="container mt-5 mb-5 text-dark" style={{textAlign: 'left'}}>
         <section>
-            <h2>1.Verantwortlicher</h2>
+            <h4>1.Verantwortlicher</h4>
             <p>Verantwortlich für die Datenverarbeitung auf dieser Webseite ist:</p>
             <p>Boris Rabinovich<br />Anwaltskanzlei Rabinovich<br />Merianstraße 19<br />015203373871<br />info@kanzlei-rbr.com</p>
         </section>
         <section>
-            <h2>2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung</h2>
+            <h4>2. Erhebung und Speicherung personenbezogener Daten sowie Art und Zweck von deren Verwendung</h4>
             <p><strong>a) Beim Besuch der Webseite</strong></p>
             <p>Beim Aufrufen unserer Webseite www.kanzlei-rbr.de werden durch den auf Ihrem Endgerät zum Einsatz kommenden Browser automatisch Informationen an den Server unserer Webseite gesendet. Diese Informationen werden temporär in einem sogenannten Logfile gespeichert. Folgende Informationen werden dabei ohne Ihr Zutun erfasst und bis zur automatisierten Löschung gespeichert:</p>
             <ul>
@@ -34,7 +33,7 @@ export default function Datenschutz() {
             <p>Die für die Benutzung des Kontaktformulars von uns erhobenen personenbezogenen Daten werden nach Erledigung der von Ihnen gestellten Anfrage automatisch gelöscht.</p>
         </section>
         <section>
-            <h2>3. Weitergabe von Daten</h2>
+            <h4>3. Weitergabe von Daten</h4>
             <p>Eine Übermittlung Ihrer persönlichen Daten an Dritte zu anderen als den im Folgenden aufgeführten Zwecken findet nicht statt.</p>
             <p>Wir geben Ihre persönlichen Daten nur an Dritte weiter, wenn:</p>
             <ul>
@@ -45,7 +44,7 @@ export default function Datenschutz() {
             </ul>
         </section>
         <section>
-            <h2>4. Betroffenenrechte</h2>
+            <h4>4. Betroffenenrechte</h4>
             <p>Sie haben das Recht:</p>
             <ul>
                 <li>emäß Art. 15 DSGVO Auskunft über Ihre von uns verarbeiteten personenbezogenen Daten zu verlangen. Insbesondere können Sie Auskunft über die Verarbeitungszwecke, die Kategorie der personenbezogenen Daten, die Kategorien von Empfängern, gegenüber denen Ihre Daten offengelegt wurden oder werden, die geplante Speicherdauer, das Bestehen eines Rechts auf Berichtigung, Löschung, Einschränkung der Verarbeitung oder Widerspruch, das Bestehen eines Beschwerderechts, die Herkunft Ihrer Daten, sofern diese nicht bei uns erhoben wurden, sowie über das Bestehen einer automatisierten Entscheidungsfindung einschließlich Profiling und ggf. aussagekräftigen Informationen zu deren Einzelheiten verlangen;</li>
@@ -58,17 +57,17 @@ export default function Datenschutz() {
             </ul>
         </section>
         <section>
-            <h2>5. Widerspruchsrecht</h2>
+            <h4>5. Widerspruchsrecht</h4>
             <p>Sofern Ihre personenbezogenen Daten auf Grundlage von berechtigten Interessen gemäß Art. 6 Abs. 1 S. 1 lit. f DSGVO verarbeitet werden, haben Sie das Recht, gemäß Art. 21 DSGVO Widerspruch gegen die Verarbeitung Ihrer personenbezogenen Daten einzulegen, soweit dafür Gründe vorliegen, die sich aus Ihrer besonderen Situation ergeben oder sich der Widerspruch gegen Direktwerbung richtet. Im letzteren Fall haben Sie ein generelles Widerspruchsrecht, das ohne Angabe einer besonderen Situation von uns umgesetzt wird.</p>
             <p>Möchten Sie von Ihrem Widerrufs- oder Widerspruchsrecht Gebrauch machen, genügt eine E-Mail an info@kanzlei-rbr.com</p>
         </section>
         <section>
-            <h2>6. Datensicherheit</h2>
+            <h4>6. Datensicherheit</h4>
             <p>Wir verwenden innerhalb des Website-Besuchs das verbreitete SSL-Verfahren (Secure Socket Layer) in Verbindung mit der jeweils höchsten Verschlüsselungsstufe, die von Ihrem Browser unterstützt wird. In der Regel handelt es sich dabei um eine 256-Bit-Verschlüsselung. Falls Ihr Browser keine 256-Bit-Verschlüsselung unterstützt, greifen wir stattdessen auf 128-Bit-v3-Technologie zurück. Ob eine einzelne Seite unseres Internetauftrittes verschlüsselt übertragen wird, erkennen Sie an der geschlossenen Darstellung des Schüssel- beziehungsweise Schloss-Symbols in der unteren Statusleiste Ihres Browsers.</p>
             <p>Wir bedienen uns im Übrigen geeigneter technischer und organisatorischer Sicherheitsmaßnahmen, um Ihre Daten gegen zufällige oder vorsätzliche Manipulationen, teilweisen oder vollständigen Verlust, Zerstörung oder gegen den unbefugten Zugriff Dritter zu schützen. Unsere Sicherheitsmaßnahmen werden entsprechend der technologischen Entwicklung fortlaufend verbessert.</p>
         </section>
         <section>
-            <h2>7. Aktualität und Änderung dieser Datenschutzerklärung</h2>
+            <h4>7. Aktualität und Änderung dieser Datenschutzerklärung</h4>
             <p>Diese Datenschutzerklärung ist aktuell gültig und hat den Stand 21.05.2024.</p>
             <p>Durch die Weiterentwicklung unserer Webseite und Angebote darüber oder aufgrund geänderter gesetzlicher beziehungsweise behördlicher Vorgaben kann es notwendig werden, diese Datenschutzerklärung zu ändern. Die jeweils aktuelle Datenschutzerklärung kann jederzeit auf der Webseite unter [Link zu Ihrer Datenschutzerklärung] von Ihnen abgerufen und ausgedruckt werden.</p>
         </section>

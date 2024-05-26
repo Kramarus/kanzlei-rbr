@@ -5,8 +5,8 @@ export default function Header({setPage}) {
     <div class="container-fluid">
         <div class="row">
             <div class="col-lg-3 bg-secondary d-none d-lg-block">
-                <a href="index.html" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 onClick={() => setPage('main')} class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
+                <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
+                    <h1 class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
                 </a>
             </div>
             <div class="col-lg-9">
@@ -23,16 +23,16 @@ export default function Header({setPage}) {
                     </div>
                     <div class="col-lg-5 text-right">
                         <div class="d-inline-flex align-items-center p-2">
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="#">
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="/">
                                 <i class="fab fa-facebook-f"></i>
                             </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="#">
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="/">
                                 <i class="fab fa-linkedin-in"></i>
                             </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="#">
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="/">
                                 <i class="fab fa-instagram"></i>
                             </a>
-                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="#">
+                            <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="/">
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
