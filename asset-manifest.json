@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/kanzlei-rbr/static/css/main.f855e6bc.css",
-    "main.js": "/kanzlei-rbr/static/js/main.d108e469.js",
+    "main.js": "/kanzlei-rbr/static/js/main.79ed85ef.js",
     "static/js/453.8237e70f.chunk.js": "/kanzlei-rbr/static/js/453.8237e70f.chunk.js",
     "static/media/carousel.jpg": "/kanzlei-rbr/static/media/carousel.a8f76f394ed65eef98c5.jpg",
     "static/media/feature.jpg": "/kanzlei-rbr/static/media/feature.9d79c957a2e158f6366b.jpg",
     "index.html": "/kanzlei-rbr/index.html",
     "main.f855e6bc.css.map": "/kanzlei-rbr/static/css/main.f855e6bc.css.map",
-    "main.d108e469.js.map": "/kanzlei-rbr/static/js/main.d108e469.js.map",
+    "main.79ed85ef.js.map": "/kanzlei-rbr/static/js/main.79ed85ef.js.map",
     "453.8237e70f.chunk.js.map": "/kanzlei-rbr/static/js/453.8237e70f.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.d108e469.js"
+    "static/js/main.79ed85ef.js"
   ]
 }
