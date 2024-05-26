@@ -22,7 +22,7 @@ export default function Footer({ setPage }) {
                         <i className="fa fa-2x fa-map-marker-alt text-primary"></i>
                         <div className="ml-3">
                             <h5 className="text-white">Büro</h5>
-                            {/* <p className="m-0">Anwaltskanzlei Rabinovich<br>Merianstraße 19<br>60316 Frankfurt am Main</p> */}
+                            <p className="m-0">Anwaltskanzlei Rabinovich<br />Merianstraße 19<br />60316 Frankfurt am Main</p>
                         </div>
                     </div>
                 </div>
