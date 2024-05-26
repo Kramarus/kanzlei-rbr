@@ -2,8 +2,8 @@ import React from 'react'
 
 export default function CallToAction() {
   return (
-    <div className="container-fluid py-5" id="contact">
-        <div className="container py-5">
+    <div className="container-fluid py-3" id="contact">
+        <div className="container py-0">
             <div className="bg-action rounded" style={{height: '500px'}}>
                 <div className="row h-100 align-items-center justify-content-center">
                     <div className="col-lg-7 text-center">

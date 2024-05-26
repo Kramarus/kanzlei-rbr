@@ -9,7 +9,7 @@ export default function Header({setPage}) {
                     <h1 class="m-0 display-5 text-primary text-uppercase">Kanzlei RBR</h1>
                 </a>
             </div>
-            <div class="col-lg-9" style={{paddingLeft: 0}}>
+            <div class="col-lg-9" style={{paddingLeft: 0,paddingRight: 0}}>
                 <div class="row bg-white border-bottom d-none d-lg-flex">
                     {/* <div class="col-lg-7 text-left">
                         <div class="h-100 d-inline-flex align-items-center py-2 px-3">
@@ -46,8 +46,8 @@ export default function Header({setPage}) {
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                        <div class="navbar-nav mr-auto py-0">
-                            <a href="#" class="nav-item nav-link active">Hauptseite</a>
+                        <div class="navbar-nav m-auto py-0">
+                            
                             <div class="nav-item dropdown">
                                 <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown">Zivilrecht</a>
                                 <div class="dropdown-menu rounded-0 m-0">
@@ -83,7 +83,6 @@ export default function Header({setPage}) {
                                 </div>
                             </div>
                             <a href="#" class="nav-item nav-link">Strafrecht</a>
-                            <a href="#contact" class="nav-item nav-link">Kontakt</a>
                         </div>
                         <a href="https://wa.me/4915203373871" class="btn btn-primary mr-3 d-none d-lg-block">WhatsApp</a>
                     </div>
