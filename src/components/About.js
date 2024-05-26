@@ -6,7 +6,7 @@ export default function About() {
         <div className="container py-5">
             <div className="row">
                 <div className="col-lg-5">
-                    <div className="about-boris">
+                    <div className="about-boris img-fluid">
                         
                     </div>
                 </div>
