@@ -41,17 +41,16 @@ export default function Footer({ setPage }) {
                     <a href="#" className="navbar-brand">
                         <h1 className="m-0 mt-n2 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
                     </a>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim, commodi ex. Cumque.</p>
-                    <div className="d-flex justify-content-start mt-4">
+                    <p>Wir kämpfen für Ihre Rechte</p>
+                    {/* <div className="d-flex justify-content-start mt-4">
                         <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
                         <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
                         <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><i className="fab fa-instagram"></i></a>
-                    </div>
+                    </div> */}
                 </div>
                 <div className="col-lg-4 col-md-4 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Links</h4>
                     <div className="d-flex flex-column justify-content-start">
-                        <a className="text-white mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Hauptseite</a>
                         <a className="text-white mb-2" href="#services"><i className="fa fa-angle-right mr-2"></i>Unsere Gebiete</a>
                         <a className="text-white mb-2" href="#about"><i className="fa fa-angle-right mr-2"></i>Über uns</a>
                         <a className="text-white" href="#contact"><i className="fa fa-angle-right mr-2"></i>Kontakt</a>
@@ -60,7 +59,7 @@ export default function Footer({ setPage }) {
                 <div className="col-lg-4 col-md-4 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Gesetzliches</h4>
                     <div className="d-flex flex-column justify-content-start">
-                    <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#agb"><i className="fa fa-angle-right mr-2"></i>AGB</a>
+                   
                         <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#datenschutz"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
                         <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
                     </div>
@@ -68,7 +67,7 @@ export default function Footer({ setPage }) {
             </div>
             <div className="row p-4 mt-5 mx-0" style={{ background: 'rgba(256, 256, 256, .05)' }}>
                 <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
-                    <p className="m-0 text-white">&copy; <a className="font-weight-bold" href="#">Kanzlei RBR</a>. Alle Rechte geschutzt</p>
+                    <p className="m-0 text-white">&copy; <a className="font-weight-bold" href="#">Kanzlei RBR</a>. Alle Rechte geschützt</p>
                 </div>
                 <div className="col-md-6 text-center text-md-right">
                     <p className="m-0 text-white">Erstellt von <a className="font-weight-bold" href="https://webbylon.com">Webbylon</a></p>

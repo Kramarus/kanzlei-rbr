@@ -2,16 +2,16 @@ import React from 'react'
 
 export default function Header({setPage}) {
   return (
-    <div class="container-fluid">
+    <div class="container-fluid" style={{position: 'fixed', zIndex: '1000'}}>
         <div class="row">
-            <div class="col-lg-3 bg-secondary d-none d-lg-block">
-                <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center">
-                    <h1 class="m-0 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
+            <div class="col-lg-3 bg-secondary d-none d-lg-block" style={{padding: 0}}>
+                <a href="/" class="navbar-brand w-100 h-100 m-0 p-0 d-flex align-items-center justify-content-center" style={{margin:0}}>
+                    <h1 class="m-0 display-5 text-primary text-uppercase">Kanzlei RBR</h1>
                 </a>
             </div>
-            <div class="col-lg-9">
+            <div class="col-lg-9" style={{paddingLeft: 0}}>
                 <div class="row bg-white border-bottom d-none d-lg-flex">
-                    <div class="col-lg-7 text-left">
+                    {/* <div class="col-lg-7 text-left">
                         <div class="h-100 d-inline-flex align-items-center py-2 px-3">
                             <i class="fa fa-envelope text-primary mr-2"></i>
                             <small>info@kanzlei-rbr.com</small>
@@ -20,8 +20,8 @@ export default function Header({setPage}) {
                             <i class="fa fa-phone-alt text-primary mr-2"></i>
                             <small>+49 152 03373871</small>
                         </div>
-                    </div>
-                    <div class="col-lg-5 text-right">
+                    </div> */}
+                    {/* <div class="col-lg-5 text-right">
                         <div class="d-inline-flex align-items-center p-2">
                             <a class="btn btn-sm btn-outline-primary btn-sm-square mr-2" href="/">
                                 <i class="fab fa-facebook-f"></i>
@@ -36,7 +36,7 @@ export default function Header({setPage}) {
                                 <i class="fab fa-youtube"></i>
                             </a>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
                 <nav class="navbar navbar-expand-lg bg-white navbar-light p-0">
                     <a href="index.html" class="navbar-brand d-block d-lg-none">

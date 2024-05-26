@@ -12,8 +12,8 @@ export default function Hero() {
                     <div className="carousel-caption d-flex flex-column align-items-center justify-content-center">
                         <div className="p-3" style={{maxWidth: 900 + 'px'}}>
                             <h4 className="text-white text-uppercase mb-4" style={{letterSpacing: '3px'}}>Kanzlei RBR</h4>
-                            <h3 className="display-2 text-capitalize text-white mb-4">Wir kämpfen für Ihre Gerechtigkeit</h3>
-                            <a className="btn btn-primary py-3 px-5 mt-2" href="https://wa.me/4915203373871">Termin vereinbaren</a>
+                            <h3 className="display-2 text-capitalize text-white mb-4">Wir kämpfen <br />für Ihr Recht</h3>
+                            <a className="btn btn-primary py-3 px-5 mt-2" href="https://wa.me/4915203373871">Kontakt aufnehmen</a>
                         </div>
                     </div>
                 </div>
