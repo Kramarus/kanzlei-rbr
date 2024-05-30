@@ -6,15 +6,15 @@ import Datenschutz from './components/Datenschutz';
 import Impressum from './components/Impressum';
 import Contact from './components/CallToAction';
 import { useState } from 'react';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
       <MainPage />
-      <Footer />
     </div>
   );
 }

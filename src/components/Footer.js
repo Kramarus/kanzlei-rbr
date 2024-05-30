@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Datenschutz from './Datenschutz';
 import Impressum from './Impressum';
+import ContactForm from './ContactForm';
 
 export default function Footer({ setPage }) {
     return (
@@ -29,7 +30,7 @@ export default function Footer({ setPage }) {
                 <div className="col-lg-3 col-md-4 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Gesetzliches</h4>
                     <div className="d-flex flex-column justify-content-start">
-                   
+
                         <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#datenschutz"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
                         <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
                     </div>
@@ -37,9 +38,9 @@ export default function Footer({ setPage }) {
                 <div className="col-lg-3 col-md-4 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Kontakte</h4>
                     <div className="d-flex flex-column justify-content-start">
-                   
-                    <p className="m-0">+49 152 03373871</p>
-                    <p className="m-0">info@kanzlei-rbr.com</p>
+
+                        <p className="m-0">+49 152 03373871</p>
+                        <p className="m-0">info@kanzlei-rbr.com</p>
 
                     </div>
                 </div>
@@ -56,8 +57,8 @@ export default function Footer({ setPage }) {
 
 
 
-            <div class="modal fade"  id="agb" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document" style={{maxWidth: '1000px'}}>
+            <div class="modal fade" id="agb" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document" style={{ maxWidth: '1000px' }}>
                     <div class="modal-content" >
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLongTitle">AGB</h5>
@@ -73,8 +74,8 @@ export default function Footer({ setPage }) {
             </div>
 
 
-            <div class="modal fade"  id="datenschutz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document" style={{maxWidth: '1000px'}}>
+            <div class="modal fade" id="datenschutz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document" style={{ maxWidth: '1000px' }}>
                     <div class="modal-content" >
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLongTitle">Datenschutzerklärung</h5>
@@ -89,8 +90,8 @@ export default function Footer({ setPage }) {
                 </div>
             </div>
 
-            <div class="modal fade"  id="impressum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document"  style={{maxWidth: '1000px'}}>
+            <div class="modal fade" id="impressum" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document" style={{ maxWidth: '1000px' }}>
                     <div class="modal-content" >
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalLongTitle">Impressum</h5>
@@ -104,6 +105,24 @@ export default function Footer({ setPage }) {
                     </div>
                 </div>
             </div>
+
+            <div className="modal fade" id="contact-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div className="modal-dialog" role="document">
+                    <div className="modal-content">
+                        <div className="modal-header">
+                            <h5 className="modal-title" id="exampleModalLabel">Kontaktformular</h5>
+                            <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div className="modal-body">
+                            <ContactForm />
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     )
 }
