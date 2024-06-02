@@ -8,9 +8,9 @@ export default function Footer({ setPage }) {
     return (
         <div className="container-fluid bg-secondary text-white pt-5 px-sm-3 px-md-5" style={{ marginTop: 90 + 'px', textAlign: 'left' }}>
             <div className="row pt-5">
-                <div className="col-lg-3 col-md-4 mb-5">
+                <div className="col-lg-6 col-md-6 mb-5">
                     <a href="#" className="navbar-brand">
-                        <h1 className="m-0 mt-n2 display-4 text-primary text-uppercase">Kanzlei RBR</h1>
+                        <h1 className="m-0 mt-n2 display-4 text-primary text-uppercase d-inline-block">Kanzlei RBR</h1>
                     </a>
                     <p className="m-0">Anwaltskanzlei Rabinovich<br />Merianstraße 19<br />60316 Frankfurt am Main</p>
                     {/* <div className="d-flex justify-content-start mt-4">
@@ -19,23 +19,17 @@ export default function Footer({ setPage }) {
                         <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><i className="fab fa-instagram"></i></a>
                     </div> */}
                 </div>
-                <div className="col-lg-3 col-md-4 mb-5">
+                <div className="col-lg-3 col-md-3 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Links</h4>
                     <div className="d-flex flex-column justify-content-start">
                         <a className="text-white mb-2" href="#services"><i className="fa fa-angle-right mr-2"></i>Unsere Gebiete</a>
                         <a className="text-white mb-2" href="#about"><i className="fa fa-angle-right mr-2"></i>Über uns</a>
-                        <a className="text-white" href="#contact"><i className="fa fa-angle-right mr-2"></i>Kontakt</a>
-                    </div>
-                </div>
-                <div className="col-lg-3 col-md-4 mb-5">
-                    <h4 className="font-weight-semi-bold text-primary mb-4">Gesetzliches</h4>
-                    <div className="d-flex flex-column justify-content-start">
-
+                        <a className="text-white mb-2" href="#contact"><i className="fa fa-angle-right mr-2"></i>Kontakt</a>
                         <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#datenschutz"><i className="fa fa-angle-right mr-2"></i>Datenschutz</a>
-                        <a className="text-white mb-2" type="button" data-toggle="modal" data-target="#impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
+                        <a className="text-white" type="button" data-toggle="modal" data-target="#impressum"><i className="fa fa-angle-right mr-2"></i>Impressum</a>
                     </div>
                 </div>
-                <div className="col-lg-3 col-md-4 mb-5">
+                <div className="col-lg-3 col-md-3 mb-5">
                     <h4 className="font-weight-semi-bold text-primary mb-4">Kontakte</h4>
                     <div className="d-flex flex-column justify-content-start">
 
@@ -54,26 +48,6 @@ export default function Footer({ setPage }) {
                 </div>
             </div>
             <a href="#" className="btn btn-primary px-3 back-to-top"><i className="fa fa-angle-double-up"></i></a>
-
-
-
-            <div class="modal fade" id="agb" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document" style={{ maxWidth: '1000px' }}>
-                    <div class="modal-content" >
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="exampleModalLongTitle">AGB</h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            AGB text
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
             <div class="modal fade" id="datenschutz" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document" style={{ maxWidth: '1000px' }}>
                     <div class="modal-content" >

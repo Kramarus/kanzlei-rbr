@@ -52,41 +52,40 @@ export default function Header({ setPage }) {
                                 <div className="nav-item dropdown">
                                     <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Zivilrecht</a>
                                     <div className="dropdown-menu rounded-0 m-0">
-                                        <a href="#" className="dropdown-item">Kaufrecht</a>
-                                        <a href="#" className="dropdown-item">Erbrecht</a>
-                                        <a href="#" className="dropdown-item">Reiserecht</a>
-                                        <a href="#" className="dropdown-item">Mietrecht und WEG</a>
-                                        <a href="#" className="dropdown-item">Familienrecht</a>
-                                        <a href="#" className="dropdown-item">Erstellung und Analyse von Verträgen</a>
-                                        <a href="#" className="dropdown-item">Rechtliche Begleitung</a>
-                                        <a href="#" className="dropdown-item">Forderungsmanagement</a>
-                                        <a href="#" className="dropdown-item">Vertretung vor Gerichten und staatlichen Organen</a>
-                                        <a href="#" className="dropdown-item">Mahnverfahren</a>
-                                        <a href="#" className="dropdown-item">Schutz vor unbegründeten finanziellen Forderungen</a>
-                                        <a href="#" className="dropdown-item">Schutz der Verbraucherrechte</a>
+                                        <a href="#contact" className="dropdown-item">Kaufrecht</a>
+                                        <a href="#contact" className="dropdown-item">Erbrecht</a>
+                                        <a href="#contact" className="dropdown-item">Reiserecht</a>
+                                        <a href="#contact" className="dropdown-item">Mietrecht und WEG</a>
+                                        <a href="#contact" className="dropdown-item">Familienrecht</a>
+                                        <a href="#contact" className="dropdown-item">Erstellung und Analyse von Verträgen</a>
+                                        <a href="#contact" className="dropdown-item">Rechtliche Begleitung</a>
+                                        <a href="#contact" className="dropdown-item">Forderungsmanagement</a>
+                                        <a href="#contact" className="dropdown-item">Vertretung vor Gerichten und staatlichen Organen</a>
+                                        <a href="#contact" className="dropdown-item">Mahnverfahren</a>
+                                        <a href="#contact" className="dropdown-item">Schutz vor unbegründeten finanziellen Forderungen</a>
+                                        <a href="#contact" className="dropdown-item">Schutz der Verbraucherrechte</a>
                                     </div>
                                 </div>
                                 <div className="nav-item dropdown">
                                     <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Gesellschaftsrecht</a>
                                     <div className="dropdown-menu rounded-0 m-0">
-                                        <a href="#" className="dropdown-item">Gründung und Betreuung von juristischen Personen (Verein, UG, GmbH, Stiftung etc.)</a>
-                                        <a href="#" className="dropdown-item">Erstellung von Gründungsdokumenten und Vertragsgestaltung</a>
-                                        <a href="#" className="dropdown-item">Erstellung und Prüfung der AGB</a>
-                                        <a href="#" className="dropdown-item">Vertretung vor Gerichten, Schiedsgerichten und staatlichen Organen</a>
-                                        <a href="#" className="dropdown-item">Rechte der Eigentümer juristischer Personen</a>
+                                        <a href="#contact" className="dropdown-item">Gründung und Betreuung von juristischen Personen (Verein, UG, GmbH, Stiftung etc.)</a>
+                                        <a href="#contact" className="dropdown-item">Erstellung von Gründungsdokumenten und Vertragsgestaltung</a>
+                                        <a href="#contact" className="dropdown-item">Erstellung und Prüfung der AGB</a>
+                                        <a href="#contact" className="dropdown-item">Vertretung vor Gerichten, Schiedsgerichten und staatlichen Organen</a>
+                                        <a href="#contact" className="dropdown-item">Rechte der Eigentümer juristischer Personen</a>
                                     </div>
                                 </div>
                                 <div className="nav-item dropdown">
                                     <a href="#" className="nav-link dropdown-toggle" data-toggle="dropdown">Öffentliches Recht</a>
                                     <div className="dropdown-menu rounded-0 m-0">
-                                        <a href="#" className="dropdown-item">Ausländerrecht</a>
-                                        <a href="#" className="dropdown-item">Aufenthaltsrecht</a>
+                                        <a href="#contact" className="dropdown-item">Ausländerrecht</a>
+                                        <a href="#contact" className="dropdown-item">Aufenthaltsrecht</a>
                                     </div>
                                 </div>
                                 <a href="#" className="nav-item nav-link">Strafrecht</a>
                             </div>
                             <button className="btn btn-primary mr-3 d-none d-lg-block" type="button" data-toggle="modal" data-target="#contact-form">Kontakt aufnehmen</button>
-    
                         </div>
                     </nav>
                 </div>
